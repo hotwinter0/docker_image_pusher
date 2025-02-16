@@ -5,11 +5,11 @@ memcached:1.5.6
 seafileltd/seafile-mc:11.0.13
 jellyfin/jellyfin
 lobehub/lobe-chat
-postgresql
-casdoor
-lobe
-minio
-network-service
+pgvector/pgvector:pg17
+casbin/casdoor
+lobehub/lobe-chat-database
+minio/minio
+alpine
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
